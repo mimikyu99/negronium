@@ -1,0 +1,49 @@
+type: flying
+hovering: true
+groundLayer: 90
+name: Flyingga
+description: Niggas be flying!
+health: 85
+armor: 1
+speed: 1.6
+hitSize: 6
+isEnemy: false
+drag: 0.04
+alwaysUnlocked: true
+outlineColor: 1c1f24
+
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      buildingDamageMultiplier: 0.01
+weapons: [
+  {
+        name: spit
+    color: 81dde6
+    x: 0
+    y: 3
+    reload: 8
+    mirror: false
+    rotate: false
+    ejectEffect: none
+    shootSound: shootSmite
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 3
+      lifetime: 120
+      damage: 20
+      splashDamage: 80
+      splashDamageRadius: 10
+      width: 9
+      height: 10
+      pierceBuilding: false
+      pierce: false
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+      
+}
+}
+]
