@@ -18,7 +18,7 @@ outlineColor: 1c1f24
 weapons: [
   {
         name: spit
-    color: 81dde6
+    FrontColor: 81dde6
     x: 0
     y: 3
     reload: 8
@@ -31,18 +31,18 @@ weapons: [
       buildingDamageMultiplier: 0.01
       speed: 3
       lifetime: 120
-      damage: 20
+      damage: 100
       splashDamage: 80
       splashDamageRadius: 10
-      width: 9
-      height: 10
+      width: 8
+      height: 13
       pierceBuilding: false
       pierce: false
       trailChance: -1
       trailEffect: dynamicSpikes
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
-      buildingDamageMultiplier: 0.01
+      buildingDamageMultiplier: 1
       
 }
 }
